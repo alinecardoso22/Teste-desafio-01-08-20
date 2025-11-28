@@ -5,6 +5,7 @@ Var
 
 glicose: real
 trigliceridios: real
+colesterol: real
 
 Inicio
 
@@ -33,5 +34,20 @@ senao
   escreva("Classificação : Aumentado ")
 fimse
 
+escreval
+escreval
+
+escreva("Medida de colesterol: ")
+leia(colesterol)
+
+se colesterol <= 200 entao
+ escreva("Classificação: Desejável")
+senao
+ se colesterol >= 240 entao
+  escreva("Classificação : Elevado")
+ senao
+  escreva ("Classificação : Limiar ")
+ fimse
+fimse
 
 Fimalgoritmo
