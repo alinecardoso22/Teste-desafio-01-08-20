@@ -6,6 +6,7 @@ Var
 glicose: real
 trigliceridios: real
 colesterol: real
+soma: real
 
 Inicio
 
@@ -50,4 +51,10 @@ senao
  fimse
 fimse
 
+soma <- glicose + trigliceridios + colesterol
+
+escreval
+escreval
+
+escreva ("SOMA = ", soma)
 Fimalgoritmo
