@@ -4,7 +4,7 @@ Algoritmo "Diabetes"
 Var
 
 glicose: real
-
+trigliceridios: real
 
 Inicio
 
@@ -19,6 +19,18 @@ senao
  senao
   escreva ("Classificação : elevado ")
  fimse
+fimse
+
+escreval
+escreval
+
+escreva("Medida de triglicerídios: ")
+leia(trigliceridios)
+
+se trigliceridios <= 200 entao
+ escreva("Classificação: Desejável")
+senao
+  escreva("Classificação : Aumentado ")
 fimse
 
 
